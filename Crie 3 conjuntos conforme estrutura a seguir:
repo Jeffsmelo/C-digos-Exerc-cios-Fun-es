@@ -1,0 +1,28 @@
+#setx = set(["Apple", "Mango"])
+#sety = set(["Mango", "Orange"]
+#setz = set(["Mango"])
+
+#a) Faça a união dos três conjuntos e imprima o resultado
+#b) Verifique quais os elementos comuns do conjunto setx e sety e imprima o resultado
+#c) Verifique se o conjunto setx é subconjunto do conjunto sety e setz ultilizando issubset()
+#d) Verifique quais elementos do conjunto setx não existem em sety
+
+# a) Faça a união dos três conjuntos e imprima o resultado
+setx = set(["Apple", "Mango"])
+sety = set(["Mango", "Orange"])
+setz = set(["Mango"])
+
+união = setx | sety | setz
+print(união)
+
+# b) Verifique quais os elementos comuns do conjunto setx e sety e imprima o resultado
+intercessão = setx & sety
+print(intercessão)
+
+# c) Verifique se o conjunto setx é subconjunto do conjunto sety e setz ultilizando issubset()
+setx <= sety <= setz
+print(setx)
+
+# d) Verifique quais elementos do conjunto setx não existem em sety
+setx \ sety
+print(setx)
