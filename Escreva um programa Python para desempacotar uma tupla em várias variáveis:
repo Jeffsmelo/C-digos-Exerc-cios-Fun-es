@@ -1,0 +1,4 @@
+#considere uma tupla =("Aluno","Universidade","Nota","Resultado") e as variáveis w,x,y,z
+tupla = ("Aluno","Universidade","Nota","Resultado")
+w,x,y,z = tupla
+y
