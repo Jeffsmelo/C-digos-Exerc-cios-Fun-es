@@ -1,0 +1,10 @@
+#a) O usuário deve entrar com os valores dos dois multiplicadores e o programa deve exibir o resultado na tela. b) O usuário deve entrar com os valores dos dois multiplicadores e o programa deve exibir o resultado na tela.
+
+def hello(meu_nome):
+    print("Olá", meu_nome)
+    
+hello("Jefferson")
+a = lambda x: x*2
+print(a(3))
+b = lambda x: x*2
+print(b(9))
