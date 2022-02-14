@@ -1,0 +1,5 @@
+# >>>right_justify("monty")
+# Dica: Use concatenação de string e repetição. Além disso, o Python oferece uma função integrada chamada len, que apresenta o comprimento de uma string, então o valor de len("monty") é 5.
+
+def right_justify():
+    right_justify('monty')
