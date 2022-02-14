@@ -1,0 +1,30 @@
+def do_twice(func, arg):
+    """ Exemplo
+    func: função objeto
+    arg: argumento 1
+    """
+    func(arg)
+    func(arg)
+
+
+def print_twice(arg):
+    """Imprima o argumento twice.
+    arg: texto 1
+    """
+    print(arg)
+    print(arg)
+
+
+def do_four(func, arg):
+    """ exemplo
+    func: função objeto
+    arg: argumento 2
+    """
+    do_twice(func, arg)
+    do_twice(func, arg)
+
+
+do_twice(print, 'spam')
+print('')
+
+do_four(print, 'spam')
