@@ -1,0 +1,9 @@
+DicionárioOrdenado original:
+DicionárioOrdenado ([("Colo1", "Red"), ("Color2", "Green"), ("Color3", "Blue")])
+DicionárioOrdenado atualizado:
+DicionárioOrdenado ([("Color4", "Orange"), ("Color1", "Red"), ("Color2", "Green"), ("Color3", "Blue")])
+
+D1 = {"Colo1":"Red","Color2":"Green","Color3":"Blue"}
+D2 = {"Color4":"Orange","Color1":"Red","Color2":"Green","Color3":"Blue"}
+D1.update(D2)
+print(D1)
