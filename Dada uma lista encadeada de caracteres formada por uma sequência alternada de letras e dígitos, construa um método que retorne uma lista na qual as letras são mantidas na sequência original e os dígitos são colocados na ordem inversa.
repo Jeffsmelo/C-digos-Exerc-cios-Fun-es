@@ -1,0 +1,12 @@
+fila1 = ("A", 1, "E", 5, "T", 7, "W", 8, "G")
+for i in range(9):
+    print(fila1[i])
+class ehDigito():
+    def __init__(self, Letras, Números):
+        self.Letras = Letras
+        self.Números = Números
+
+Letras = ["A", "E", "T", "W", "G"]
+Números = ["1", "5", "7", "8"]
+Números.reverse()
+print(Letras + Números)
